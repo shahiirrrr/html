@@ -1,0 +1,9 @@
+img{
+    border: 2px solid black; width: 100%;
+}
+body{
+    background-color: rgb(135, 235, 148);
+}
+h1{
+    text-align: center;background-color: white;
+}

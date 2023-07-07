@@ -1,0 +1,6 @@
+img{
+    border: 3px solid transparent; border-radius: 50px;background: linear-gradient(red,green,blue); width: 50%;
+}
+h1{
+    text-align: center; border: 2px solid black;
+}
