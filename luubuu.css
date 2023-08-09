@@ -1,0 +1,50 @@
+.hd1{color: white;}
+.hd2{text-align: center;}
+.pg1{text-align: center;}
+.rw1{margin-top: 50px; margin-bottom: 50px;}
+.rw2{margin-bottom: 80px; }
+.rw3{margin-left: 230px; margin-bottom: 80px;}
+.card  {
+	width: 200px;
+	height: auto;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.card:hover  img{
+	width: 289px;
+}
+.sh1{position: absolute;left: 1600px;}
+.btn1{background-color: rgb(115, 115, 230); color: white; border-radius: 10px;}
+.pgg1{text-align: center;}
+.hd4{text-align: center;}
+
+
+
+.hover13 figure:hover img {
+	opacity: 1;
+	-webkit-animation: flash 1.5s;
+	animation: flash 1.5s;
+}
+@-webkit-keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.tt1{width: 200px;border: solid black 2px;}
+.rw9{margin-left: 200px; margin-bottom: 50px;}
+
+
+
+
