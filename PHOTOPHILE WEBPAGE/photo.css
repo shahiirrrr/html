@@ -1,0 +1,207 @@
+.hd1{font-weight: bold;text-align: center; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;padding-top: 80px;}
+.hd2{text-align: center;letter-spacing: 4px;margin-top: 80px;}
+
+
+  .img1{width:100%;height: 350px;border-radius: 5px; border: 2px solid black;}
+  .img9{
+    width: 602px;
+  }
+ 
+  .hd2{
+    text-align: center;letter-spacing: 2px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;padding-top: 40px;
+  }
+
+  .button {
+    padding: 15px 25px;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 15px;
+    /* box-shadow: 0 9px #999; */
+    width: 120px;
+    
+    
+  
+  }
+  
+  .button:hover {background-color: #3e8e41}
+  
+  .button:active {
+    background-color: #3e8e41;
+    /* box-shadow: 0 5px #666; */
+    transform: translateY(4px);
+  }
+a{
+text-decoration: none;
+}
+
+.rew{
+  padding-bottom: 100px;;
+}
+.hg1{
+  text-align: center;padding-top: 80px;letter-spacing: 5px;color: white;margin-top: 40px;
+}
+.hg2{text-align: center;letter-spacing: 4px;color: white;}
+.hg3{text-align: center;letter-spacing: 2px;color: rgb(0, 119, 255);}
+.hhh{background-color: rgb(26, 24, 24); padding-bottom: 80px;}
+.logo1{
+  width: 300px;
+}
+.logo2{
+  width: 200px;
+}
+
+
+.hover01 figure img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover01 figure:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+
+
+
+
+
+
+
+@import url(//fonts.googleapis.com/css?family=Lato:300:400);
+
+body {
+  margin:0;
+}
+
+h1 {
+  font-family: 'Lato', sans-serif;
+  font-weight:300;
+  letter-spacing: 2px;
+  font-size:48px;
+}
+p {
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 1px;
+  font-size:14px;
+  color: #333333;
+}
+
+.header {
+  position:relative;
+  text-align:center;
+  background: linear-gradient(60deg, rgb(53, 12, 214) 0%, rgb(5, 221, 250) 100%);
+  color:white;
+}
+.logo {
+  width:50px;
+  fill:white;
+  padding-right:15px;
+  display:inline-block;
+  vertical-align: middle;
+}
+
+.inner-header {
+  height:80vh;
+  width:100%;
+  margin: 0;
+  padding: 0;
+}
+
+.flex { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.waves {
+  position:relative;
+  width: 100%;
+  height:15vh;
+  margin-bottom:-7px; 
+  min-height:100px;
+  max-height:150px;
+}
+
+.content {
+  position:relative;
+  height:20vh;
+  text-align:center;
+  background-color: white;
+}
+
+
+
+.parallax > use {
+  animation: move-forever 25s cubic-bezier(.55,.5,.45,.5)     infinite;
+}
+.parallax > use:nth-child(1) {
+  animation-delay: -2s;
+  animation-duration: 7s;
+}
+.parallax > use:nth-child(2) {
+  animation-delay: -3s;
+  animation-duration: 10s;
+}
+.parallax > use:nth-child(3) {
+  animation-delay: -4s;
+  animation-duration: 13s;
+}
+.parallax > use:nth-child(4) {
+  animation-delay: -5s;
+  animation-duration: 20s;
+}
+@keyframes move-forever {
+  0% {
+   transform: translate3d(-90px,0,0);
+  }
+  100% { 
+    transform: translate3d(85px,0,0);
+  }
+}
+
+@media (max-width: 768px) {
+  .waves {
+    height:50px;
+    min-height:40px;
+  }
+  .content {
+    height:30vh;
+  }
+  h1 {
+    font-size:24px;
+  }
+}
+
+.pgh4{text-align: center;color: white;letter-spacing: 4px;}
+ 
+
+body {
+  text-align: center;
+}
+
+.letter {
+  font-family: monospace;
+  font-size: 12vmin;
+  font-weight: bolder;
+  text-shadow: 0.03em 0.03em 0.02em #777;
+  will-change: transform;
+  cursor: default;
+  
+  display: inline-block;
+  transition: transform 0.2s ease;
+}
+
+/* This is all we need :D */
+.letter:hover {
+  transform: scaleX(0.8) scaleY(1.2);
+}
+
+

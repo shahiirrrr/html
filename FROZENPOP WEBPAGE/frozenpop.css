@@ -1,0 +1,477 @@
+.hd1{color: white;}
+.hd2{text-align: center;}
+.pg1{text-align: center;letter-spacing: 2px;}
+.rw1{margin-top: 50px; margin-bottom: 50px;}
+.rw2{margin-bottom: 50px; }
+.rw3{ margin-bottom: 50px;margin-left: 150px;}
+.card  {
+	width: 200px;
+	height: auto;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	
+}
+.card:hover  img{
+	width: 289px;
+}
+.sh1{position: absolute;left: 1600px;}
+.btn1{background-color: rgb(115, 115, 230); color: white; border-radius: 10px;}
+.pgg1{text-align: center;}
+.hd4{text-align: center;}
+
+
+
+.hover13 figure:hover img {
+	opacity: 1;
+	-webkit-animation: flash 1.5s;
+	animation: flash 1.5s;
+}
+@-webkit-keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.tt1{width: 200px;border: solid black 2px;}
+.rw9{margin-bottom: 50px;}
+.hd99{text-align: center;color: white;}
+.pg99{text-align: center;color: white;}
+.rw99{background-color: rgb(58, 55, 55);margin-top: 100px;padding-top: 80px;padding-bottom: 80px;}
+.pg999{text-align: center;color: rgb(115, 112, 247); text-decoration: none}
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,600,700');
+
+body{
+  font-family: 'Nunito', sans-serif;
+}
+
+.a{color: #E7484F}
+.b{color: #F68B1D}
+.c{color: #FCED00}
+.d{color: #009E4F}
+.e{color: #00AAC3}
+.f{color:  #732982}
+
+
+.container{
+  margin-top: 150px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.rainbow{
+  background-color: #0080ff;
+  border-radius: 4px;  
+  color: #fff;
+  cursor: pointer;
+  padding: 8px 16px;text-decoration: none;
+  
+}
+
+.rainbow-1:hover{
+   background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
+   animation:slidebg 5s linear infinite;
+}
+
+
+
+@keyframes slidebg {
+  to {
+    background-position:20vw;
+  }
+}
+
+.follow{
+  margin-top: 40px;
+}
+
+.follow a{
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.btn1:hover{
+	background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
+	animation:slidebg 5s linear infinite;
+ }
+
+
+
+
+
+ @media(max-width:700px){
+	.rw3{display:flex;
+		width: 100%;
+		justify-content: center;
+		align-items: center;
+		flex: 33.3333%;
+	}
+ }
+
+
+
+
+ body {
+	text-align: center;
+  }
+  
+  .letter1 {
+	font-family: monospace;
+	font-size: 10vmin;
+	font-weight: bolder;
+	text-shadow: 0.03em 0.03em 0.02em #777;
+	will-change: transform;
+	cursor: default;
+	color: #f80a0a;
+	display: inline-block;
+	transition: transform 0.2s ease;
+  }
+  
+  /* This is all we need :D */
+  .letter1:hover {
+	transform: scaleX(0.8) scaleY(1.2);
+  }
+
+  .letter2 {
+	font-family: monospace;
+	font-size: 10vmin;
+	font-weight: bolder;
+	text-shadow: 0.03em 0.03em 0.02em #777;
+	will-change: transform;
+	cursor: default;
+	color: #191df1;
+	display: inline-block;
+	transition: transform 0.2s ease;
+  }
+  
+  /* This is all we need :D */
+  .letter2:hover {
+	transform: scaleX(0.8) scaleY(1.2);
+  }
+
+
+  .letter3 {
+	font-family: monospace;
+	font-size: 10vmin;
+	font-weight: bolder;
+	text-shadow: 0.03em 0.03em 0.02em #777;
+	will-change: transform;
+	cursor: default;
+	color: #33ff00;
+	display: inline-block;
+	transition: transform 0.2s ease;
+  }
+  
+  /* This is all we need :D */
+  .letter3:hover {
+	transform: scaleX(0.8) scaleY(1.2);
+  }
+  .letter4 {
+	font-family: monospace;
+	font-size: 10vmin;
+	font-weight: bolder;
+	text-shadow: 0.03em 0.03em 0.02em #777;
+	will-change: transform;
+	cursor: default;
+	color: #ffae00;
+	display: inline-block;
+	transition: transform 0.2s ease;
+  }
+  
+  /* This is all we need :D */
+  .letter5:hover {
+	transform: scaleX(0.8) scaleY(1.2);
+  }
+
+  .letter5 {
+	font-family: monospace;
+	font-size: 10vmin;
+	font-weight: bolder;
+	text-shadow: 0.03em 0.03em 0.02em #777;
+	will-change: transform;
+	cursor: default;
+	color: #dd3afd;
+	display: inline-block;
+	transition: transform 0.2s ease;
+  }
+  
+  /* This is all we need :D */
+  .letter6:hover {
+	transform: scaleX(0.8) scaleY(1.2);
+  }
+
+
+  .letter6 {
+	font-family: monospace;
+	font-size: 10vmin;
+	font-weight: bolder;
+	text-shadow: 0.03em 0.03em 0.02em #777;
+	will-change: transform;
+	cursor: default;
+	color: #00eeff;
+	display: inline-block;
+	transition: transform 0.2s ease;
+  }
+  
+  /* This is all we need :D */
+  .letter7:hover {
+	transform: scaleX(0.8) scaleY(1.2);
+  }
+
+  .letter7 {
+	font-family: monospace;
+	font-size: 10vmin;
+	font-weight: bolder;
+	text-shadow: 0.03em 0.03em 0.02em #777;
+	will-change: transform;
+	cursor: default;
+	color: #6200ff;
+	display: inline-block;
+	transition: transform 0.2s ease;
+  }
+  
+  /* This is all we need :D */
+  .letter4:hover {
+	transform: scaleX(0.8) scaleY(1.2);
+  }
+
+  .letter8 {
+	font-family: monospace;
+	font-size: 10vmin;
+	font-weight: bolder;
+	text-shadow: 0.03em 0.03em 0.02em #777;
+	will-change: transform;
+	cursor: default;
+	color: #5f5f5f;
+	display: inline-block;
+	transition: transform 0.2s ease;
+  }
+  
+  /* This is all we need :D */
+  .letter8:hover {
+	transform: scaleX(0.8) scaleY(1.2);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+  * {
+	margin: 0;
+	padding: 0;
+  }
+  
+  body {
+	font-family: "Oswald", sans-serif;
+	font-size: 16px;
+  }
+  
+  h4 {
+	text-align: center;
+	margin: 2rem 0;
+	font-size: 2.4rem;
+	font-weight: 300;
+	position: relative;
+  
+	@media only screen and (max-width: 1100px) {
+	  font-size: 2.2rem;
+	}
+  
+	@media only screen and (max-width: 900px) {
+	  font-size: 1.6rem;
+	}
+  
+	@media only screen and (max-width: 700px) {
+	  font-size: 1.4rem;
+	}
+  
+	@media only screen and (max-width: 480px) {
+	  font-size: 1.2rem;
+	}
+  
+	&:before {
+	  content: "«";
+	  position: absolute;
+	  left: 50%;
+	  top: 2rem;
+	  transform: translateX(-50%) rotate(270deg);
+	}
+  }
+  
+  h2 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 5rem;
+	color: transparent;
+	text-transform: uppercase;
+  
+	@media only screen and (max-width: 1100px) {
+	  font-size: 4rem;
+	}
+  
+	@media only screen and (max-width: 900px) {
+	  font-size: 3rem;
+	}
+  
+	@media only screen and (max-width: 700px) {
+	  font-size: 2.2rem;
+	}
+  
+	@media only screen and (max-width: 480px) {
+	  font-size: 1.6rem;
+	}
+  
+	&:hover span:nth-child(1) {
+	  transform: translateY(-1rem);
+  
+	  @media only screen and (max-width: 1100px) {
+		transform: translateY(-0.7rem);
+	  }
+  
+	  @media only screen and (max-width: 900px) {
+		transform: translateY(-0.55rem);
+	  }
+  
+	  @media only screen and (max-width: 700px) {
+		transform: translateY(-0.47rem);
+	  }
+  
+	  @media only screen and (max-width: 480px) {
+		transform: translateY(-0.4rem);
+	  }
+	}
+  
+	&:hover span:nth-child(2) {
+	  transform: translateY(1rem);
+  
+	  @media only screen and (max-width: 1100px) {
+		transform: translateY(0.7rem);
+	  }
+  
+	  @media only screen and (max-width: 900px) {
+		transform: translateY(0.55rem);
+	  }
+  
+	  @media only screen and (max-width: 700px) {
+		transform: translateY(0.47rem);
+	  }
+  
+	  @media only screen and (max-width: 480px) {
+		transform: translateY(0.4rem);
+	  }
+	}
+  
+	&:hover span:nth-child(3) {
+	  opacity: 1;
+	  transition: opacity 700ms ease;
+	}
+  
+	& span:nth-child(1),
+	& span:nth-child(2) {
+	  position: absolute;
+	  top: 0;
+	  left: 0;
+	  color: #031231;
+	  transition: 0.5s;
+	  overflow: hidden;
+	}
+  
+	& span:nth-child(1) {
+	  clip-path: polygon(0 0, 100% 0%, 100% 50%, 0 50%);
+	}
+  
+	& span:nth-child(2) {
+	  clip-path: polygon(0 50%, 100% 50%, 100% 100%, 0 100%);
+	}
+  
+	& span:nth-child(3) {
+	  position: absolute;
+	  top: 50%;
+	  left: 50%;
+	  transform: translate(-50%, -50%);
+	  opacity: 0;
+	  transition: opacity 350ms ease;
+	  font-size: 1.8rem;
+	  color: #fff;
+	  background: #66e3be;
+	  width: 97.5%;
+	  padding-left: 5px;
+	  text-align: center;
+	  letter-spacing: 0.5rem;
+	  word-spacing: 1rem;
+	  line-height: 100%;
+  
+	  @media only screen and (max-width: 1100px) {
+		font-size: 1.2rem;
+	  }
+  
+	  @media only screen and (max-width: 900px) {
+		font-size: 1rem;
+		width: 97%;
+		letter-spacing: 4px;
+	  }
+  
+	  @media only screen and (max-width: 700px) {
+		font-size: 0.85rem;
+		width: 96%;
+		letter-spacing: 3px;
+		word-spacing: 0.5rem;
+	  }
+  
+	  @media only screen and (max-width: 480px) {
+		font-size: 0.65rem;
+		letter-spacing: 2px;
+		word-spacing: 0.2rem;
+	  }
+	}
+  }
+  
+
+
+
+  @media(min-width:500px)
+  {
+	.card{
+		width: 100%;
+
+	}
+  }
+  @media (min-width:500px) {
+	.carousel-indicators{
+		width: 100%;
+	}
+	
+  }
+
+
+
+
+
+  
+
