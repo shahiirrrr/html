@@ -1,0 +1,113 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Sedgwick+Ave+Display&display=swap');
+.row1{
+    background-color: rgb(238, 101, 21);padding-top: 10px;
+}
+.img1{width: 30px;
+
+}
+
+.img2{
+    width: 30px;
+}
+.img3{width: 30px;
+
+}
+
+.img4{width: 60px;
+
+}
+.row2{
+    background-color: white;padding-top: 40px;
+}
+
+.img5{
+    width: 100%; height: 800px;   border-end-end-radius: 45px;border-start-start-radius: 45px;
+}
+.img6{
+    width: 500px; border-radius: 20px;
+}
+.row3{
+    margin-top: 50px;
+}
+a{
+    text-decoration: none; color: black;
+}
+.btn{
+
+  background-color: #0095ff;
+  border-radius: 20px;
+  box-sizing: border-box;
+  color: #fff;
+  font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  padding: 8px ;
+  text-align: center;
+
+}
+.hd1{
+    font-family: 'Sedgwick Ave Display', cursive; color: rgb(0, 0, 0);padding-left: 80px
+}
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+.row4{ background-image: url(coffee4.jpg);margin-top: 40px;border-start-start-radius: 65px;padding-bottom: 80px;
+
+}
+.p01{
+    text-align: center;
+}
+.btn01{
+    margin-top: 20px;
+    background-color: #0095ff;
+    border-radius: 20px;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    padding: 10px ;
+    text-align: center;
+    border: none;
+}
+.hd01{
+    color: orangered;padding-top: 100px;padding-left: 50px;font-family: 'Sedgwick Ave Display', cursive;
+}
+.hd02{
+    color: orangered;padding-left: 80px;padding-top: 10px;font-family: 'Sedgwick Ave Display', cursive;
+}
+.pg66{color: white;padding-left: 50px;padding-top: 30px;letter-spacing: 2px;}
+.row5{
+    padding-top: 50px;padding-bottom: 50px;
+}
+.img9{
+    width: 400px;height: 550px;border-radius: 50px;
+}
+.row6{
+    margin-top: 20px;
+}
+.row7{
+    margin-top: 20px;padding-bottom: 80px;
+}
+.img7{
+    width: 300px;
+}
+.row8{
+    background-color: rgb(34, 34, 34);padding-bottom: 20px;padding-top: 20px;
+}
+.hg1{ color: orangered;font-family: 'Sedgwick Ave Display', cursive;}
+.h59{
+    color: white;font-style: bold;
+}
+.row9{
+    background-color: rgb(34, 34, 34);padding-top: 60px;padding-bottom: 20px;border-top: solid 2px gray;
+}
+.row10{
+    background-color: rgb(34, 34, 34);padding-top: 40px;padding-bottom: 30px;border-top: solid 2px gray;
+}
+.pb1{
+    color: #fff;text-align: center;font-style: oblique;
+}
+.bb6{
+    color: white;font-style: normal;font-weight: 50px;
+}
